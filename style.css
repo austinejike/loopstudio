@@ -151,34 +151,13 @@
     
 }
 
-.grid1  {
+.grid1  {background-image: url(/images/image-night-arcade.jpg);}
+.grid2 {background-image: url(/images/image-soccer-team.jpg);}
 
-    background-image: url(/images/image-night-arcade.jpg);
-
-}
-
-
-
-.grid2 {
-    background-image: url(/images/image-soccer-team.jpg);
-
-}
-.grid3 {
-    background-image: url(/images/image-grid.jpg);
-
-
-}
-.grid4 {
-    background-image: url(/images/image-pocket-borealis.jpg);
-
-}
-.grid5 {
-    background-image: url(/images/image-curiosity.jpg);
-   
-}
-.grid6 {
-    background-image: url(/images/image-deep-earth.jpg);
-}
+.grid3 {background-image: url(/images/image-grid.jpg);}
+.grid4 {background-image: url(/images/image-pocket-borealis.jpg);}
+.grid5 {background-image: url(/images/image-curiosity.jpg);}
+.grid6 {background-image: url(/images/image-deep-earth.jpg);}
 
 .footer {
     width: 100%;
@@ -212,7 +191,7 @@
 
 /* Mobile */
 
-@media (max-width: 680px){
+@media screen and (max-width: 680px){
     body {
         background-color: blue;
     }
